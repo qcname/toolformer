@@ -6,4 +6,5 @@
 __all__ = ['foo']
 
 # %% ../nbs/00_core.ipynb 3
-def foo(): pass
+def foo(a,b): return a+2*b
+foo(1,4)
