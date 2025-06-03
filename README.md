@@ -60,8 +60,16 @@ package manager specific guidelines on
 
 Fill me in please! Don’t forget code examples:
 
-``` python
-1+1
-```
+|                     | Name                                     | Position |
+|---------------------|------------------------------------------|----------|
+| Chris Lattner       | Inventor of Swift and LLVM               |          |
+| Fernando Pérez      | Creator of Jupyter                       |          |
+| David Berg          | Software Engineer, Netflix               |          |
+| Erik Gaasedelen     | Software Engineer, Lyft                  |          |
+| Roxanna Pourzand    | Product Manager, Transform               |          |
+| Hugo Bowne-Anderson | Head of Developer Relations, Outerbounds |          |
 
-    2
+> [!NOTE]
+>
+> Note that there are five types of callouts, including: `note`,
+> `warning`, `important`, `tip`, and `caution`.

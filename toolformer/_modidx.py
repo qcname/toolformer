@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://qcname.github.io',
                 'git_url': 'https://github.com/qcname/toolformer',
                 'lib_path': 'toolformer'},
-  'syms': {'toolformer.core': {'toolformer.core.foo': ('core.html#foo', 'toolformer/core.py')}}}
+  'syms': { 'toolformer.core': { 'toolformer.core.foo': ('core.html#foo', 'toolformer/core.py'),
+                                 'toolformer.core.mse': ('core.html#mse', 'toolformer/core.py'),
+                                 'toolformer.core.say_hello': ('core.html#say_hello', 'toolformer/core.py')},
+            'toolformer.usage': { 'toolformer.usage.HelloSayer': ('usage.html#hellosayer', 'toolformer/usage.py'),
+                                  'toolformer.usage.HelloSayer.__init__': ('usage.html#hellosayer.__init__', 'toolformer/usage.py'),
+                                  'toolformer.usage.HelloSayer.say': ('usage.html#hellosayer.say', 'toolformer/usage.py'),
+                                  'toolformer.usage.foo1': ('usage.html#foo1', 'toolformer/usage.py')}}}
