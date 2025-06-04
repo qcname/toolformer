@@ -68,5 +68,45 @@
     "crumbs": [
       "usage"
     ]
+  },
+  {
+    "objectID": "00_api.html",
+    "href": "00_api.html",
+    "title": "toolformer",
+    "section": "",
+    "text": "source\n\nBaseApI\n\n BaseApI (name:str,\n          prompt_template:langchain_core.prompts.prompt.PromptTemplate,\n          sampling_threshold:float=0.2, filtering_threshold:float=0.2)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nname\nstr\n\nthe name of API CALL\n\n\nprompt_template\nPromptTemplate\n\n\n\n\nsampling_threshold\nfloat\n0.2\n\n\n\nfiltering_threshold\nfloat\n0.2\n\n\n\n\n\nsource\n\n\nCalcuatorAPI\n\n CalcuatorAPI (name:str,\n               prompt_template:langchain_core.prompts.prompt.PromptTemplat\n               e, sampling_threshold:float=0.2,\n               filtering_threshold:float=0.2)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nname\nstr\n\nthe name of API CALL\n\n\nprompt_template\nPromptTemplate\n\n\n\n\nsampling_threshold\nfloat\n0.2\n\n\n\nfiltering_threshold\nfloat\n0.2\n\n\n\n\n\nsource\n\n\nWolframeAPI\n\n WolframeAPI (*args, api_key:str, **kargs)\n\nInitialize self. See help(type(self)) for accurate signature.",
+    "crumbs": [
+      "00_api.html"
+    ]
+  },
+  {
+    "objectID": "00_data_generator.html",
+    "href": "00_data_generator.html",
+    "title": "toolformer",
+    "section": "",
+    "text": "source\n\nAugmentedCandidate\n\nsource\n\n\nDataGenerator\n\n DataGenerator (config:dict, model:Callable, tokenizer:Callable,\n                apis:List[toolformer.api.BaseApI],\n                device=device(type='cpu'))\n\n*Base class for all neural network modules.\nYour models should also subclass this class.\nModules can also contain other Modules, allowing to nest them in a tree structure. You can assign the submodules as regular attributes::\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.conv1 = nn.Conv2d(1, 20, 5)\n        self.conv2 = nn.Conv2d(20, 20, 5)\n\n    def forward(self, x):\n        x = F.relu(self.conv1(x))\n        return F.relu(self.conv2(x))\nSubmodules assigned in this way will be registered, and will have their parameters converted too when you call :meth:to, etc.\n.. note:: As per the example above, an __init__() call to the parent class must be made before assignment on the child.\n\nivar training: Boolean represents whether this module is in training or evaluation mode. :vartype training: bool*\n\n\n\n\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nconfig\ndict\n\n\n\n\nmodel\ntyping.Callable\n\n\n\n\ntokenizer\ntyping.Callable\n\n\n\n\napis\ntyping.List[toolformer.api.BaseApI]\n\n\n\n\ndevice\ndevice\ncpu\ndevice: str = torch.device(“cuda” if torch.cuda.is_available() else “cpu”)",
+    "crumbs": [
+      "00_data_generator.html"
+    ]
+  },
+  {
+    "objectID": "00_utils.html",
+    "href": "00_utils.html",
+    "title": "toolformer",
+    "section": "",
+    "text": "source\n\nyaml2dict\n\n yaml2dict (file_path)\n\n\nsource\n\n\nextract_api_content\n\n extract_api_content (text:str, api_name:str)\n\n从给定的文本中抽取出api请求\n\nsource\n\n\nextract_api_syntax\n\n extract_api_syntax (text:str, api_name:str)\n\n抽取语法\n\nsource\n\n\nextract_api_name\n\n extract_api_name (text:str, is_end_token:bool=True)",
+    "crumbs": [
+      "00_utils.html"
+    ]
+  },
+  {
+    "objectID": "00_model.html",
+    "href": "00_model.html",
+    "title": "toolformer",
+    "section": "",
+    "text": "source\n\nToolFormer\n\n ToolFormer\n             (model:transformers.models.auto.modeling_auto.AutoModelForCau\n             salLM, apis:List[toolformer.api.BaseApI], config:dict)\n\n*Base class for all neural network modules.\nYour models should also subclass this class.\nModules can also contain other Modules, allowing to nest them in a tree structure. You can assign the submodules as regular attributes::\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass Model(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.conv1 = nn.Conv2d(1, 20, 5)\n        self.conv2 = nn.Conv2d(20, 20, 5)\n\n    def forward(self, x):\n        x = F.relu(self.conv1(x))\n        return F.relu(self.conv2(x))\nSubmodules assigned in this way will be registered, and will have their parameters converted too when you call :meth:to, etc.\n.. note:: As per the example above, an __init__() call to the parent class must be made before assignment on the child.\n:ivar training: Boolean represents whether this module is in training or evaluation mode. :vartype training: bool*",
+    "crumbs": [
+      "00_model.html"
+    ]
   }
 ]
