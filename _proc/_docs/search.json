@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core_file",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (name:str)\n\n\n\n\n\nType\nDetails\n\n\n\n\nname\nstr\n名称\n\n\nReturns\nstr\n返回字符串\n\n\n\n\nsource\n\n\nfoo\n\n foo (a, b)\n\n\ntest_eq(foo(1,2),5)\n\n\n这是一个测试\n\nsource\n\n\n\nmse\n\n mse (y_true, y_pred)\n\n计算均方误差： \\[\n\\text{MSE} = \\frac{1}{n}\\sum_{i=1}^n (y_i - \\hat{y}_i)^2\n\\]",
+    "crumbs": [
+      "core_file"
+    ]
+  },
+  {
+    "objectID": "01_usage.html",
+    "href": "01_usage.html",
+    "title": "toolformer",
+    "section": "",
+    "text": "# usage\n&gt; test\n\n\n\nsource\n\nfoo1\n\n foo1 (name)",
+    "crumbs": [
+      "01_usage.html"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "toolformer",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "toolformer"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "toolformer",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall toolformer in Development mode\n# make sure toolformer package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to toolformer\n$ nbdev_prepare",
+    "crumbs": [
+      "toolformer"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "toolformer",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/qcname/toolformer.git\nor from conda\n$ conda install -c qcname toolformer\nor from pypi\n$ pip install toolformer\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "toolformer"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "toolformer",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n\n\n\nName\nPosition\n\n\n\n\nChris Lattner\nInventor of Swift and LLVM\n\n\n\nFernando Pérez\nCreator of Jupyter\n\n\n\nDavid Berg\nSoftware Engineer, Netflix\n\n\n\nErik Gaasedelen\nSoftware Engineer, Lyft\n\n\n\nRoxanna Pourzand\nProduct Manager, Transform\n\n\n\nHugo Bowne-Anderson\nHead of Developer Relations, Outerbounds\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.",
+    "crumbs": [
+      "toolformer"
+    ]
+  },
+  {
+    "objectID": "usage.html",
+    "href": "usage.html",
+    "title": "usage",
+    "section": "",
+    "text": "The autoreload extension is already loaded. To reload it, use:\n  %reload_ext autoreload\n\n\n\nsource\n\nfoo1\n\n foo1 (name)\n\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to)\n\nsay_hello to someone",
+    "crumbs": [
+      "usage"
+    ]
+  }
+]
