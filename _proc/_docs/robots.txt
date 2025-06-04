@@ -1,1 +1,0 @@
-Sitemap: https://qcname.github.io/toolformer/sitemap.xml

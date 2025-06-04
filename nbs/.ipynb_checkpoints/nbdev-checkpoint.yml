@@ -1,9 +1,0 @@
-project:
-  output-dir: _docs
-
-website:
-  title: "toolformer"
-  site-url: "https://qcname.github.io/toolformer"
-  description: "toolformer-fork"
-  repo-branch: main
-  repo-url: "https://github.com/qcname/toolformer"

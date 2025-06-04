@@ -1,9 +1,0 @@
-website:
-  sidebar:
-    contents:
-      - index.ipynb
-      - 00_api.ipynb
-      - 00_data_generator.ipynb
-      - 00_model.ipynb
-      - 00_prompt.ipynb
-      - 00_utils.ipynb

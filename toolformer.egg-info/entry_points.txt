@@ -1,5 +1,0 @@
-[console_scripts]
-hello = toolformer.core:say_hello
-
-[nbdev]
-toolformer = toolformer._modidx:d
